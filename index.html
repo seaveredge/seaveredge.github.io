@@ -2,21 +2,22 @@
 <html lang="en-NL">
 <!-- Comment! -->
 <head>
-<style>
+	<link rel="stylesheet" href="style.css">
+<!-- <style>
 body {
 		font-family: helvetica;
 		margin: 50px;
 	 }
-</style>
+</style> -->
 </head>
 <body>
 
-<h1>Chris Verhoek's website</h1>
+<h1 id="thetop">Chris Verhoek's website</h1>
 The actual factual website will be <a href="https://chrisverhoek.nl">chrisverhoek.nl</a> and <a href="https://chrisverhoek.com">chrisverhoek.com</a>
-<p>This website is under construction!</p>
+<p>This website is under construction! Check <a href="#bookmarks2">here</a> the bookmark part</p>
 
 <h1>Please have patience and</h1>
-blabla
+blabla 
 <h2>IN</h2>
 blabla
 <h3>SOME</h3>
@@ -33,6 +34,8 @@ blabla
 
 <h1>Now here is an image!</h1>
 <img src="content/duck.svg" alt="Piet de eend" width="200" height="200">
+<p>But do always use the 'style' option in images!</p>
+<img src="content/duck.svg" alt="What the duck?!" style="float: right;width:128px;height:128px;">
 
 <p>That was a photo of a duck, now we have a line <br> break paragraph! </p>
 
@@ -73,5 +76,97 @@ It is shown that if the data set satisfies a persistence of excitation condition
 <bdo dir="rtl">Now we do bidirectional override</bdo> --- (Now we do bidirectional override)
 <hr>
 <p>I ended up <a href="https://www.w3schools.com/html/html_css.asp">here</a>, starting with CSS!</p>
+
+<hr>
+<h1>We are talking hyperlinks:</h1>
+<p><a href="https://google.com" target="_self">This</a> link opens in the same window/tab as it was clicked</p>
+<p><a href="https://google.com" target="_blank">This</a> link opens in a new window or tab</p>
+<p><a href="https://google.com" target="_parent">This</a> link opens in the parent frame</p>
+<p><a href="https://google.com" target="_top">This</a> link opens in the full body of the window. (Always use 'https://' for external links (websites))</p>
+<p>An image can also be a link (click duck)<a href="https://google.com" target="_blank"><img src="content/duck.svg" alt="Piet de eend" width="200" height="200"></a>
+</p>
+<p>Or send an email to <a href="mailto:me@eme.com">this email</a> address</p>
+<p>For a button we need Javascript:</p>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<hr>
+<h1 id="bookmarks1">Now it becomes interesting! Bookmarks</h1>
+<p>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiamlobortis facilisis sem. Nullam nec mi et neque pharetrasollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper,felis non sodales commodo, lectus velit ultrices augue, adignissim nibh lectus placerat pede. Vivamus nunc nunc, molestieut, ultricies vel, semper in, velit. Ut porttitor. Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis sollicitudin. Praesent blandit blandit mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum turpis accumsan semper.
+</p>
+<h2 id="bookmarks2">Second part</h2>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiamlobortis facilisis sem. Nullam nec mi et neque pharetrasollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper,felis non sodales commodo, lectus velit ultrices augue, adignissim nibh lectus placerat pede. Vivamus nunc nunc, molestieut, ultricies vel, semper in, velit. Ut porttitor. Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis sollicitudin. Praesent blandit blandit mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum turpis accumsan semper.
+<p>Alright, click <a href="#bookmarks1">here</a> to return to the first part. Or click <a href="#thetop">here</a> to back to the top.</p>
+<hr>
+<p>It is also possible make parts of the image clickable. See here an example where when you click on the beak, a Javascript is activated </p>
+<img src="content/owl.jpg" alt="Piet de eend" usemap="#workmap">
+<map name="workmap">
+	<area shape="poly" coords="97,141,119,127,141,141,119,182" href="https://en.wikipedia.org/wiki/Beak" onclick="myFunction()">
+</map>
+<script>
+function myFunction() {
+  alert("You clicked the eat hole of the bird!");
+}
+</script>
+<p>It is also handy so specify which images are loaded, dependent on the screen size, see <a href="https://www.w3schools.com/html/html_images_picture.asp">this link</a></p>
+<h3>It is also possible to make tables, see <a href="https://www.w3schools.com/html/html_tables.asp">W3skoolz link</a></h3>
+<p>Now we make an (<a href="https://www.w3schools.com/html/html_lists_unordered.asp">un</a>)<a href="https://www.w3schools.com/html/html_lists_ordered.asp">ordered</a> list:</p>
+<ul>
+	<li>item 1</li><li>item 2</li><ul><li>subitem!</li><li>subitem!</li></ul><li>item 3</li>
+</ul>
+<ol>
+	<li>item 1</li>
+	<ul><li>subitem!</li><li>subitem!</li></ul>
+	<li>item 2</li><li>item 3</li>
+</ol>
+<p>And a description list kind of thing:</p>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Lorem ipsum</dd>
+  <dt>Milk</dt>
+  <dd>Lorem ipsum</dd>
+</dl>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
