@@ -1,0 +1,31 @@
+body {
+	font-family: helvetica;
+	margin: 50px;
+}
+
+h1 {
+  padding: 3px;
+}
+
+a:link {
+  color: navy ; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkmagenta;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkmagenta;
+  background-color: transparent;
+  text-decoration: underline;
