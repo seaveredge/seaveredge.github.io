@@ -1,9 +1,32 @@
 body {
-	font-family: helvetica;
-	margin: 50px;
+	font-family: courier;
+	padding: 20px;
+  font-size:12pt
+
 }
 
-h1 {
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size:14pt;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+}
+
+header > h1 {
+    margin-bottom: 0; 
+}
+
+header > p {
+    margin-top: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main > h1 {
   padding: 3px;
 }
 
@@ -14,7 +37,7 @@ a:link {
 }
 
 a:visited {
-  color: darkmagenta;
+  color: navy;
   background-color: transparent;
   text-decoration: none;
 }
@@ -29,3 +52,13 @@ a:active {
   color: darkmagenta;
   background-color: transparent;
   text-decoration: underline;
+}
+
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size:10pt;
+    border-top: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+}
+}
