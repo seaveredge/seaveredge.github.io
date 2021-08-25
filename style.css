@@ -1,14 +1,14 @@
 body {
-	font-family: courier;
+	font-family: helvetica;
 	padding: 20px;
-  font-size:12pt
+    font-size:10pt
 
 }
 
 header {
     max-width: 800px;
     margin: 0 auto;
-    font-size:14pt;
+    font-size:13pt;
     border-bottom: 1px solid rgb(223, 223, 223);
     border-radius: 5px;
 }
@@ -28,6 +28,16 @@ main {
 
 main > h1 {
   padding: 3px;
+}
+
+article {
+    margin-top: 40px;
+}
+
+section {
+    padding-left: 15px;
+    border-left: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
 }
 
 a:link {
@@ -61,4 +71,8 @@ footer {
     border-top: 1px solid rgb(223, 223, 223);
     border-radius: 5px;
 }
+
+pre {
+    font-size: 8pt;
 }
+
