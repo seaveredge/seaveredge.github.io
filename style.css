@@ -80,6 +80,17 @@ article {
     margin-left: 2px;
 }
 
+article > h2 {
+    margin-bottom: 0px;
+}
+
+.pdate {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-style: italic;
+}
+
 section {
     padding-left: 15px;
     border-left: 1px solid rgb(223, 223, 223);
