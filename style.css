@@ -150,3 +150,23 @@ figure > img {
   margin-right: auto;
 }
 
+/* 
+    This is code for an image gallery 
+ */
+
+div.gallery {
+  margin: 3px;
+  float: left;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+  color: gray;
+  font-size: 90%;
+}
