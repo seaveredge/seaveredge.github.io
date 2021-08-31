@@ -133,3 +133,20 @@ pre {
     font-size: 8pt;
 }
 
+figure {
+  padding: 10px;
+}
+
+figcaption {
+  color: gray;
+  font-size: 90%;
+  padding: 2px;
+  text-align: center;
+}
+
+figure > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
