@@ -65,6 +65,13 @@ header > p > span > a:hover {
   text-decoration: underline;
 }
 
+header > img {
+  float:left;
+  width:70px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
