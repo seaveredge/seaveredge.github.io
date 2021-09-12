@@ -2,7 +2,6 @@ body {
 	font-family: helvetica;
 	padding: 20px;
     font-size:11pt
-
 }
 
 body > h1 {
@@ -165,7 +164,6 @@ figure > img {
 
 div.gallery {
   padding: 0px;
-  float: left;
 }
 
 div.gallery img {
@@ -181,4 +179,55 @@ div.desc {
   text-align: center;
   color: gray;
   font-size: 85%;
+
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivefour {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.responsivethree {
+  padding: 0 6px;
+  float: left;
+  width: 33.32%;
+}
+
+.responsivetwo {
+  padding: 0 6px;
+  float: left;
+  width: 49.9988%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsivefour {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsivefour {
+    width: 100%;
+  }
+  .responsivethree {
+    width: 100%;
+  }
+  .responsivetwo {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
