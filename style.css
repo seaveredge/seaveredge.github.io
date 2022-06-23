@@ -103,6 +103,11 @@ section {
     border-radius: 5px;
 }
 
+dt {
+    font-style: italic;
+    font-size: 90%;
+}
+
 a:link {
   color: navy ; 
   background-color: transparent; 
