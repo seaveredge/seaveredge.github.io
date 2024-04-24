@@ -235,5 +235,23 @@ div.desc {
   clear: both;
 }
 
-
+/*for dark mode*/
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+  a:link {
+    color: #809fff;
+  }
+  a:visited {
+    color: #809fff;
+  }
+  header > p > span > a:link {
+    color: #eee;
+  }
+  header > p > span > a:visited {
+    color: #eee;
+  }
+}
 
