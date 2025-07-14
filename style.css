@@ -1,8 +1,9 @@
 body {
 	font-family: Georgia;
 	padding: 20px;
-    font-size:11pt;
-    text-align: justify;
+  font-size:11pt;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 body > h1 {
