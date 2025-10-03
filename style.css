@@ -148,7 +148,7 @@ pre {
 
 code {
     font-family: monospace, monospace; /* keep monospace */
-    font-size: 1em;                    /* match parent size */
+    font-size: 0.9em;                    /* match parent size */
     line-height: inherit;              /* avoid extra spacing issues */
 }
 
